@@ -3,7 +3,7 @@ package proyectoActas;
 import java.util.ArrayList;
 
 
-public class Acta {
+public class Acta implements FuncionesActa {
 		
 	private String nombre;
 	private ArrayList<Punto> puntosDia = new ArrayList<Punto>();
